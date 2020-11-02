@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #secim{
+            margin-left: 49px;
+        }
+        #buton{
+            margin-left: 49px;
+        }
+    </style>
+</head>
+<body>
+    <div id="secim">
+    
+    <select id="kod">
+        <option value="" id="">Para Birimi Seçiniz</option>
+        <option value="USD">Amerikan Doları</option>
+        <option value="AUD">Avustralya Doları</option>
+        <option value="DKK">Danimarka Kronu</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">İngiliz Sterlini</option>
+        <option value="CHF">İsviçre Frangı</option>
+        <option value="SEK">İsveç Kronu</option>
+        <option value="CAD">Kanada Doları</option>
+    </select>
+    </div>
+
+    <p>PARA : <input type="text" id="para" placeholder="₺"> </p>
+    <div id="buton"> <button onclick="Verial()">Para Değeri Hesapla</button> </div>
+    <p>Çevirilecek Para Değeri :<span id="girilenpara"></span></p>
+    <p>Paranın Değeri : <span id="yazi"></span></p>
+    
+    <script src="index.js"></script>
+</body>
+</html>
